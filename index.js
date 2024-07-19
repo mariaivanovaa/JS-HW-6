@@ -6,53 +6,53 @@ while (i <= 10) {
 }
 
 // 2
-for (let i = 2; i <= 20; i++) {
-    if (i % 2 === 1) {
+for (let a = 2; a <= 20; a++) {
+    if (a % 2 === 1) {
         continue;
     } else {
-        console.log(1);
+        console.log(a);
     }
 }
 
 // 3
 const seven = 7;
-for (let i = 1; i <= 10; i++) {
-    console.log(seven * i)
+for (let b = 1; b <= 10; b++) {
+    console.log(seven * b)
 }
 
 // 4
 const array = [1, 2, 3, 4, 5]
- let a = 0;
-while (i < array.length) {
-    console.log(array[i])
-    i++
+ let c = 0;
+while (c < array.length) {
+    console.log(array[c])
+    c++
 }
 
 // 5
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let b = 0; i < numbers.length; i++) {
-    if (numbers[b] === 7) {
+for (let d = 0; d < numbers.length; d++) {
+    if (numbers[d] === 7) {
         break;
     }
-    console.log(numbers[b]);
+    console.log(numbers[d]);
 }
 
 // 6
 const number = 10
-let c = 1
-while (i <= number) {
-    console.log(i)
-    i++
+let e = 1
+while (e <= number) {
+    console.log(e)
+    e++
 }
 
 // 7
-let d = 0
-while (i < 20) {
-    i++
+let f = 0
+while (f < 20) {
+    f++
     
-    if (i % 3 === 0) {
+    if (f % 3 === 0) {
         continue
     }
-    console.log(i)
+    console.log(f)
 }
